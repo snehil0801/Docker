@@ -1,0 +1,3 @@
+FROM snehil0801/nano-note
+ADD notes.txt /tmp/notes.txt
+CMD ["/bin/nano", "/tmp/notes.txt"]
